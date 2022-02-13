@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html lang="EN">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Gallery | Lasyam School of Kuchipudi Dance</title>
+        <link rel="stylesheet" href="./css/gallery-s.css" id="styles-s">
+        <link rel="stylesheet" href="./css/gallery-m.css" id="styles-m">
+        <link rel="stylesheet" href="./css/gallery-l.css" id="styles-l">
+        <link rel="icon" type="image/x-icon" href="./images/shared/favicon.ico" />
+    </head>
+
+    <body>
+        <!-- Website Header (includes site navigation). -->
+        <header>
+            <img src="./images/shared/lasyam_banner-l.jpg" alt="Lasyam Banner &trade;" class="lasyam_banner l"
+                onclick="toggle();">
+            <img src="./images/shared/lasyam_banner-m.jpg" alt="Lasyam Banner &trade;" class="lasyam_banner m"
+                onclick="toggle();">
+            <img src="./images/shared/lasyam_banner-s.jpg" alt="Lasyam Banner &trade;" class="lasyam_banner s"
+                onclick="toggle();">
+            <div class="mobile" onclick="toggleMobileDrawer()"></div>
+        </header>
+        <!-- Central Navigation -->
+        <nav class="navigation" id="top-navigation">
+            <ul>
+                <li><a href="./index.html" id="home"></a></li>
+                <li><a href="./about_us.html" id="about_us"></a></li>
+                <li><a href="./classes.html" id="classes"></a></li>
+                <li><a href="./kuchipudi.html" id="kuchipudi"></a></li>
+                <li><a href="./gallery.html" id="gallery"></a></li>
+                <li><a href="./contact_us.html" id="contact_us"></a></li>
+            </ul>
+        </nav>
+        <nav id="gallery-navigation">
+            <section>
+                <a href="./gallery.html" onclick="addGalleryBorder('gallery_rp')">
+                    <figure id="gallery_rp">
+                        <img src="./images/gallery/rangapravesam/preetha/rp-img2.jpg">
+                        <figcaption>Rangapravesams</figcaption>
+                </a>
+                </figure>
+                <a href="./gallery_ba.html" onclick="addGalleryBorder('gallery_ba')">
+                    <figure id="gallery_ba">
+                        <img src="./images/gallery/ballets/rasavilasam/ba-img5.jpg">
+                        <figcaption>Ballets</figcaption>
+                    </figure>
+                </a>
+                <a href="./gallery_ss.html" onclick="addGalleryBorder('gallery_ss')">
+                    <figure id="gallery_ss">
+                        <img src="./images/gallery/student_showcase/ss-img17.jpg">
+                        <figcaption>Student Showcase</figcaption>
+                    </figure>
+                </a>
+            </section>
+        </nav>
+        <h1 class="headings">Student Showcase</h1>
+        <section class="s-gallery">
+            <article class="a-gallery">
+                <figure class="image-selectors">
+                    <a class="previous" onclick="prevImage('SS')"></a>
+                    <a class="next" onclick="nextImage('SS')"></a>
+                </figure>
+                <img src="./images/gallery/student_showcase/ss-img1.jpg" class="ss-images" loading="lazy">
+                <img src="./images/gallery/student_showcase/ss-img2.jpg" class="ss-images" loading="lazy">
+                <img src="./images/gallery/student_showcase/ss-img3.jpg" class="ss-images" loading="lazy">
+                <img src="./images/gallery/student_showcase/ss-img4.jpg" class="ss-images" loading="lazy">
+                <img src="./images/gallery/student_showcase/ss-img5.jpg" class="ss-images" loading="lazy">
+                <img src="./images/gallery/student_showcase/ss-img6.jpg" class="ss-images" loading="lazy">
+                <img src="./images/gallery/student_showcase/ss-img8.jpg" class="ss-images" loading="lazy">
+                <img src="./images/gallery/student_showcase/ss-img9.jpg" class="ss-images" loading="lazy">
+                <img src="./images/gallery/student_showcase/ss-img10.jpg" class="ss-images" loading="lazy">
+                <img src="./images/gallery/student_showcase/ss-img11.jpg" class="ss-images" loading="lazy">
+                <img src="./images/gallery/student_showcase/ss-img12.jpg" class="ss-images" loading="lazy">
+                <img src="./images/gallery/student_showcase/ss-img13.jpg" class="ss-images" loading="lazy">
+                <img src="./images/gallery/student_showcase/ss-img14.jpg" class="ss-images" loading="lazy">
+                <img src="./images/gallery/student_showcase/ss-img15.jpg" class="ss-images" loading="lazy">
+                <img src="./images/gallery/student_showcase/ss-img16.jpg" class="ss-images" loading="lazy">
+                <img src="./images/gallery/student_showcase/ss-img17.jpg" class="ss-images" loading="lazy">
+            </article>
+            <!-- Thumbnail Images  -->
+            <aside class="as-ss-thumbnail">
+                <h2>15th Anniversary</h2>
+                <img src="./images/gallery/student_showcase/thumbnails/ss-img1.jpg" class="ss-thumbnail" loading="lazy"
+                    onclick="switchImage(1, 'SS')">
+                <img src="./images/gallery/student_showcase/thumbnails/ss-img2.jpg" class="ss-thumbnail" loading="lazy"
+                    onclick="switchImage(2, 'SS')">
+                <img src="./images/gallery/student_showcase/thumbnails/ss-img3.jpg" class="ss-thumbnail" loading="lazy"
+                    onclick="switchImage(3, 'SS')">
+                <img src="./images/gallery/student_showcase/thumbnails/ss-img4.jpg" class="ss-thumbnail" loading="lazy"
+                    onclick="switchImage(4, 'SS')">
+                <img src="./images/gallery/student_showcase/thumbnails/ss-img5.jpg" class="ss-thumbnail" loading="lazy"
+                    onclick="switchImage(5, 'SS')">
+                <img src="./images/gallery/student_showcase/thumbnails/ss-img6.jpg" class="ss-thumbnail" loading="lazy"
+                    onclick="switchImage(6, 'SS')">
+                <img src="./images/gallery/student_showcase/thumbnails/ss-img7.jpg" class="ss-thumbnail" loading="lazy"
+                    onclick="switchImage(7, 'SS')">
+                <img src="./images/gallery/student_showcase/thumbnails/ss-img8.jpg" class="ss-thumbnail" loading="lazy"
+                    onclick="switchImage(8, 'SS')">
+                <img src="./images/gallery/student_showcase/thumbnails/ss-img9.jpg" class="ss-thumbnail" loading="lazy"
+                    onclick="switchImage(9, 'SS')">
+                <img src="./images/gallery/student_showcase/thumbnails/ss-img11.jpg" class="ss-thumbnail" loading="lazy"
+                    onclick="switchImage(10, 'SS')">
+                <img src="./images/gallery/student_showcase/thumbnails/ss-img12.jpg" class="ss-thumbnail" loading="lazy"
+                    onclick="switchImage(11, 'SS')">
+                <img src="./images/gallery/student_showcase/thumbnails/ss-img13.jpg" class="ss-thumbnail" loading="lazy"
+                    onclick="switchImage(12, 'SS')">
+                <img src="./images/gallery/student_showcase/thumbnails/ss-img14.jpg" class="ss-thumbnail" loading="lazy"
+                    onclick="switchImage(13, 'SS')">
+                <img src="./images/gallery/student_showcase/thumbnails/ss-img15.jpg" class="ss-thumbnail" loading="lazy"
+                    onclick="switchImage(14, 'SS')">
+                <img src="./images/gallery/student_showcase/thumbnails/ss-img16.jpg" class="ss-thumbnail" loading="lazy"
+                    onclick="switchImage(15, 'SS')">
+                <img src="./images/gallery/student_showcase/thumbnails/ss-img17.jpg" class="ss-thumbnail" loading="lazy"
+                    onclick="switchImage(16, 'SS')">
+            </aside>
+        </section>
+        <footer>
+            <p>Contact Us!</p>
+            <ul>
+                <li><a href="" target="_blank" rel="noreferrer noopener">LinkedIn</a></li>
+                <li><a href="https://www.facebook.com/pages/category/Dance-School/Kuchipudi-Lasyam-102510624899568/"
+                        target="_blank" rel="noreferrer noopener">Facebook</a></li>
+                <li><a href="https://www.instagram.com/lasyam_kuchipudi" target="_blank"
+                        rel="noreferrer noopener">Instagram</a></li>
+                <li><a href="" target="_blank" rel="noopener noreferrer">Email</a></li>
+            </ul>
+        </footer>
+        <script src="./js/scripts.js"></script>
+        <script src="./js/css-borders.js"></script>
+    </body>
+
+</html>

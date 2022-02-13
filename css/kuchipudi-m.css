@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,300;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300;400;500;700&display=swap");
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .s {
+    display: none;
+  }
+
+  .l {
+    display: none;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  /* HEADER */
+  header {
+    /* BLUE */
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #03123a;
+    width: auto;
+  }
+
+  /* NAVIGATION */
+  #top-navigation {
+    /*GREEN*/
+    display: flex;
+    background-color: #03123a;
+    width: auto;
+    justify-content: center;
+  }
+
+  #top-navigation ul {
+    /*YELLOW*/
+    display: flex;
+    width: auto;
+    align-self: center;
+    justify-content: center;
+    padding: 0.5%;
+  }
+
+  #top-navigation li {
+    list-style-type: none;
+  }
+
+  #top-navigation a {
+    /*BLUE*/
+    display: flex;
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+  }
+
+  /* BODY */
+  body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    background-color: #f9dce0;
+    justify-content: flex-start;
+    color: #03123a;
+    margin: 0;
+    width: auto;
+  }
+
+  /* SECTION */
+  section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 1%;
+    padding: 0.25%;
+  }
+
+  section article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* padding: 0.15%;
+        margin: 0.5%; */
+  }
+
+  /* BODY HEADINGS */
+
+  .headings {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    background-color: gray;
+    width: auto;
+    margin: 0.5%;
+    padding-left: 2%;
+  }
+
+  .secondary_headings {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    padding: -2%;
+    background-color: gray;
+  }
+
+  /* FOOTER */
+  footer {
+    color: #ffc2f0;
+    background-color: #03123a;
+    padding-bottom: 2.5%;
+    width: auto;
+  }
+
+  footer p {
+    display: block;
+    text-align: center;
+  }
+
+  footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  footer li {
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    height: 50%;
+    background-color: #ffc2f0;
+  }
+
+  footer a {
+    color: #03123a;
+    text-decoration: none;
+    align-self: center;
+  }
+
+  footer a:hover {
+    background-color: #bc7c9c; /* Opera Mauve */
+    letter-spacing: 5px;
+  }
+
+  footer a:active {
+    background-color: #3b3b58; /* Independence */
+  }
+  /* BUTTONS */
+  #top-navigation #home {
+    background-image: url("../images/shared/buttons/home-m.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #top-navigation #home:active {
+    background-image: url("../images/shared/buttons/home_hover-m.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #top-navigation #about_us {
+    background-image: url("../images/shared/buttons/about_us-m.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #top-navigation #about_us:active {
+    background-image: url("../images/shared/buttons/about_us_hover-m.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #top-navigation #classes {
+    background-image: url("../images/shared/buttons/classes-m.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #top-navigation #classes:active {
+    background-image: url("../images/shared/buttons/classes_hover-m.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #top-navigation #kuchipudi {
+    background-image: url("../images/shared/buttons/kuchipudi-m.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #top-navigation #kuchipudi:active {
+    background-image: url("../images/shared/buttons/kuchipudi_hover-m.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #top-navigation #gallery {
+    background-image: url("../images/shared/buttons/gallery-m.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #top-navigation #gallery:active {
+    background-image: url("../images/shared/buttons/gallery_hover-m.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #top-navigation #contact_us {
+    background-image: url("../images/shared/buttons/contact_us-m.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #top-navigation #contact_us:active {
+    background-image: url("../images/shared/buttons/contact_us_hover-m.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}

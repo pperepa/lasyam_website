@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html lang="EN">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Gallery | Lasyam School of Kuchipudi Dance</title>
+        <link rel="stylesheet" href="./css/gallery-s.css" id="styles-s">
+        <link rel="stylesheet" href="./css/gallery-m.css" id="styles-m">
+        <link rel="stylesheet" href="./css/gallery-l.css" id="styles-l">
+        <link rel="icon" type="image/x-icon" href="./images/shared/favicon.ico" />
+    </head>
+
+    <body>
+        <!-- Website Header (includes site navigation). -->
+        <header>
+            <img src="./images/shared/lasyam_banner-l.jpg" alt="Lasyam Banner &trade;" class="lasyam_banner l"
+                onclick="toggle();">
+            <img src="./images/shared/lasyam_banner-m.jpg" alt="Lasyam Banner &trade;" class="lasyam_banner m"
+                onclick="toggle();">
+            <img src="./images/shared/lasyam_banner-s.jpg" alt="Lasyam Banner &trade;" class="lasyam_banner s"
+                onclick="toggle();">
+            <div class="mobile" onclick="toggleMobileDrawer()"></div>
+        </header>
+        <!-- Central Navigation -->
+        <nav class="navigation" id="top-navigation">
+            <ul>
+                <li><a href="./index.html" id="home"></a></li>
+                <li><a href="./about_us.html" id="about_us"></a></li>
+                <li><a href="./classes.html" id="classes"></a></li>
+                <li><a href="./kuchipudi.html" id="kuchipudi"></a></li>
+                <li><a href="./gallery.html" id="gallery"></a></li>
+                <li><a href="./contact_us.html" id="contact_us"></a></li>
+            </ul>
+        </nav>
+        <nav id="gallery-navigation">
+            <section>
+                <a href="./gallery.html" onclick="addGalleryBorder('gallery_rp')">
+                    <figure id="gallery_rp">
+                        <img src="./images/gallery/rangapravesam/preetha/rp-img2.jpg">
+                        <figcaption>Rangapravesams</figcaption>
+                </a>
+                </figure>
+                <a href="./gallery_ba.html" onclick="addGalleryBorder('gallery_ba')">
+                    <figure id="gallery_ba">
+                        <img src="./images/gallery/ballets/rasavilasam/ba-img5.jpg">
+                        <figcaption>Ballets</figcaption>
+                    </figure>
+                </a>
+                <a href="./gallery_ss.html" onclick="addGalleryBorder('gallery_ss')">
+                    <figure id="gallery_ss">
+                        <img src="./images/gallery/student_showcase/ss-img17.jpg">
+                        <figcaption>Student Showcase</figcaption>
+                    </figure>
+                </a>
+            </section>
+        </nav>
+        <h1 class="headings">Ballets</h1>
+        <section class="s-gallery">
+            <article class="a-gallery">
+                <figure class="image-selectors">
+                    <a class="previous" onclick="prevImage('BA')"></a>
+                    <a class="next" onclick="nextImage('BA')"></a>
+                </figure>
+                <img src="./images/gallery/ballets/seetharama-kalyanam/ba-img1.jpg" class="ba-images" loading="eager">
+                <img src="./images/gallery/ballets/seetharama-kalyanam/ba-img2.jpg" class="ba-images" loading="eager">
+                <img src="./images/gallery/ballets/seetharama-kalyanam/ba-img3.jpg" class="ba-images" loading="lazy">
+                <img src="./images/gallery/ballets/seetharama-kalyanam/ba-img4.jpg" class="ba-images" loading="lazy">
+                <img src="./images/gallery/ballets/seetharama-kalyanam/ba-img5.jpg" class="ba-images" loading="lazy">
+                <img src="./images/gallery/ballets/seetharama-kalyanam/ba-img6.jpg" class="ba-images" loading="lazy">
+                <img src="./images/gallery/ballets/seetharama-kalyanam/ba-img7.jpg" class="ba-images" loading="lazy">
+                <img src="./images/gallery/ballets/seetharama-kalyanam/ba-img8.jpg" class="ba-images" loading="lazy">
+                <img src="./images/gallery/ballets/seetharama-kalyanam/ba-img9.jpg" class="ba-images" loading="lazy">
+                <img src="./images/gallery/ballets/seetharama-kalyanam/ba-img10.jpg" class="ba-images" loading="lazy">
+                <img src="./images/gallery/ballets/seetharama-kalyanam/ba-img11.jpg" class="ba-images" loading="lazy">
+                <img src="./images/gallery/ballets/seetharama-kalyanam/ba-img12.jpg" class="ba-images" loading="lazy">
+                <img src="./images/gallery/ballets/seetharama-kalyanam/ba-img13.jpg" class="ba-images" loading="lazy">
+                <img src="./images/gallery/ballets/seetharama-kalyanam/ba-img14.jpg" class="ba-images" loading="lazy">
+                <img src="./images/gallery/ballets/seetharama-kalyanam/ba-img15.jpg" class="ba-images" loading="lazy">
+                <img src="./images/gallery/ballets/rasavilasam/ba-img1.jpg" class="ba-images" loading="lazy">
+                <img src="./images/gallery/ballets/rasavilasam/ba-img2.jpg" class="ba-images" loading="lazy">
+                <img src="./images/gallery/ballets/rasavilasam/ba-img3.jpg" class="ba-images" loading="lazy">
+                <img src="./images/gallery/ballets/rasavilasam/ba-img4.jpg" class="ba-images" loading="lazy">
+                <img src="./images/gallery/ballets/rasavilasam/ba-img5.jpg" class="ba-images" loading="lazy">
+                <img src="./images/gallery/ballets/rasavilasam/ba-img6.jpg" class="ba-images" loading="lazy">
+                <img src="./images/gallery/ballets/rasavilasam/ba-img7.jpg" class="ba-images" loading="lazy">
+                <img src="./images/gallery/ballets/rasavilasam/ba-img8.jpg" class="ba-images" loading="lazy">
+                <img src="./images/gallery/ballets/rasavilasam/ba-img9.jpg" class="ba-images" loading="lazy">
+                <img src="./images/gallery/ballets/bhamakalapam/ba-img1.jpg" class="ba-images" loading="lazy">
+                <img src="./images/gallery/ballets/bhamakalapam/ba-img2.jpg" class="ba-images" loading="lazy">
+                <img src="./images/gallery/ballets/bhamakalapam/ba-img3.jpg" class="ba-images" loading="lazy">
+                <img src="./images/gallery/ballets/bhamakalapam/ba-img4.jpg" class="ba-images" loading="lazy">
+                <img src="./images/gallery/ballets/bhamakalapam/ba-img5.jpg" class="ba-images" loading="lazy">
+            </article>
+            <!-- Thumbnail Images  -->
+            <aside class="as-ba-thumbnail">
+                <h2>Seetharama Kalyanam</h2>
+                <img src="./images/gallery/ballets/seetharama-kalyanam/thumbnails/ba-img1.jpg" class="ba-thumbnail"
+                    loading="eager" onclick="switchImage(1, 'BA')">
+                <img src="./images/gallery/ballets/seetharama-kalyanam/thumbnails/ba-img2.jpg" class="ba-thumbnail"
+                    loading="eager" onclick="switchImage(2, 'BA')">
+                <img src="./images/gallery/ballets/seetharama-kalyanam/thumbnails/ba-img3.jpg" class="ba-thumbnail"
+                    loading="eager" onclick="switchImage(3, 'BA')">
+                <img src="./images/gallery/ballets/seetharama-kalyanam/thumbnails/ba-img4.jpg" class="ba-thumbnail"
+                    loading="lazy" onclick="switchImage(4, 'BA')">
+                <img src="./images/gallery/ballets/seetharama-kalyanam/thumbnails/ba-img5.jpg" class="ba-thumbnail"
+                    loading="lazy" onclick="switchImage(5, 'BA')">
+                <img src="./images/gallery/ballets/seetharama-kalyanam/thumbnails/ba-img6.jpg" class="ba-thumbnail"
+                    loading="lazy" onclick="switchImage(6, 'BA')">
+                <img src="./images/gallery/ballets/seetharama-kalyanam/thumbnails/ba-img7.jpg" class="ba-thumbnail"
+                    loading="lazy" onclick="switchImage(7, 'BA')">
+                <img src="./images/gallery/ballets/seetharama-kalyanam/thumbnails/ba-img8.jpg" class="ba-thumbnail"
+                    loading="lazy" onclick="switchImage(8, 'BA')">
+                <img src="./images/gallery/ballets/seetharama-kalyanam/thumbnails/ba-img9.jpg" class="ba-thumbnail"
+                    loading="lazy" onclick="switchImage(9, 'BA')">
+                <img src="./images/gallery/ballets/seetharama-kalyanam/thumbnails/ba-img10.jpg" class="ba-thumbnail"
+                    loading="lazy" onclick="switchImage(10, 'BA')">
+                <img src="./images/gallery/ballets/seetharama-kalyanam/thumbnails/ba-img11.jpg" class="ba-thumbnail"
+                    loading="lazy" onclick="switchImage(11, 'BA')">
+                <img src="./images/gallery/ballets/seetharama-kalyanam/thumbnails/ba-img12.jpg" class="ba-thumbnail"
+                    loading="lazy" onclick="switchImage(12, 'BA')">
+                <img src="./images/gallery/ballets/seetharama-kalyanam/thumbnails/ba-img13.jpg" class="ba-thumbnail"
+                    loading="lazy" onclick="switchImage(13, 'BA')">
+                <img src="./images/gallery/ballets/seetharama-kalyanam/thumbnails/ba-img14.jpg" class="ba-thumbnail"
+                    loading="lazy" onclick="switchImage(14, 'BA')">
+                <img src="./images/gallery/ballets/seetharama-kalyanam/thumbnails/ba-img15.jpg" class="ba-thumbnail"
+                    loading="lazy" onclick="switchImage(15, 'BA')">
+                <h2>Rasavilasam</h2>
+                <img src="./images/gallery/ballets/rasavilasam/thumbnails/ba-img1.jpg" class="ba-thumbnail"
+                    loading="lazy" onclick="switchImage(16, 'BA')">
+                <img src="./images/gallery/ballets/rasavilasam/thumbnails/ba-img2.jpg" class="ba-thumbnail"
+                    loading="lazy" onclick="switchImage(17, 'BA')">
+                <img src="./images/gallery/ballets/rasavilasam/thumbnails/ba-img3.jpg" class="ba-thumbnail"
+                    loading="lazy" onclick="switchImage(18, 'BA')">
+                <img src="./images/gallery/ballets/rasavilasam/thubmnails/ba-img4.jpg" class="ba-thumbnail"
+                    loading="lazy" onclick="switchImage(19, 'BA')">
+                <img src="./images/gallery/ballets/rasavilasam/thumbnails/ba-img5.jpg" class="ba-thumbnail"
+                    loading="lazy" onclick="switchImage(20, 'BA')">
+                <img src="./images/gallery/ballets/rasavilasam/thubmnails/ba-img6.jpg" class="ba-thumbnail"
+                    loading="lazy" onclick="switchImage(21, 'BA')">
+                <img src="./images/gallery/ballets/rasavilasam/thumbnails/ba-img7.jpg" class="ba-thumbnail"
+                    loading="lazy" onclick="switchImage(22, 'BA')">
+                <img src="./images/gallery/ballets/rasavilasam/thumbnails/ba-img8.jpg" class="ba-thumbnail"
+                    loading="lazy" onclick="switchImage(23, 'BA')">
+                <img src="./images/gallery/ballets/rasavilasam/thumbnails/ba-img9.jpg" class="ba-thumbnail"
+                    loading="lazy" onclick="switchImage(24, 'BA')">
+                <h2>Bhamakalapam</h2>
+                <img src="./images/gallery/ballets/bhamakalapam/thumbnails/ba-img1.jpg" class="ba-thumbnail"
+                    loading="lazy" onclick="switchImage(25, 'BA')">
+                <img src="./images/gallery/ballets/bhamakalapam/thumbnails/ba-img2.jpg" class="ba-thumbnail"
+                    loading="lazy" onclick="switchImage(26, 'BA')">
+                <img src="./images/gallery/ballets/bhamakalapam/thumbnails/ba-img3.jpg" class="ba-thumbnail"
+                    loading="lazy" onclick="switchImage(27, 'BA')">
+                <img src="./images/gallery/ballets/bhamakalapam/thumbnails/ba-img4.jpg" class="ba-thumbnail"
+                    loading="lazy" onclick="switchImage(28, 'BA')">
+                <img src="./images/gallery/ballets/bhamakalapam/thumbnails/ba-img5.jpg" class="ba-thumbnail"
+                    loading="lazy" onclick="switchImage(29, 'BA')">
+            </aside>
+        </section>
+        <footer>
+            <p>Contact Us!</p>
+            <ul>
+                <li><a href="" target="_blank" rel="noreferrer noopener">LinkedIn</a></li>
+                <li><a href="https://www.facebook.com/pages/category/Dance-School/Kuchipudi-Lasyam-102510624899568/"
+                        target="_blank" rel="noreferrer noopener">Facebook</a></li>
+                <li><a href="https://www.instagram.com/lasyam_kuchipudi" target="_blank"
+                        rel="noreferrer noopener">Instagram</a></li>
+                <li><a href="" target="_blank" rel="noopener noreferrer">Email</a></li>
+            </ul>
+        </footer>
+        <script src="./js/scripts.js"></script>
+        <script src="./js/css-borders.js"></script>
+    </body>
+
+</html>

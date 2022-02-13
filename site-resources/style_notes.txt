@@ -1,0 +1,67 @@
+Site Colors: 
+/* Site Dark Blue - #03123A
+ * Site Pink - #FFC2F0
+ * Site Bamboo - #FFCEAD
+ * Site Background - #F9DCE0
+*/
+
+Style 1: Extra-Small Viewports - Phones
+Viewport: XS - < 576px
+
+Style 2: "Small" & Medium Viewports - Large Phones & Tablets
+Viewport: S - >= 576px
+Viewport: M - >= 768px
+
+Style 3: Large & Extra-Large Viewports - Computer Browsers
+Viewport: L - >= 992px
+Viewport: XL - >= 1200px
+
+BUTTONS: 
+large viewport (l): 200x66
+medium viewport (m): 150x50
+small viweport (s): 100x34
+
+
+SHARED
+------
+banner-xl: 1200x240
+banner-m: 700x140
+banner-s: 300x100
+
+HOME
+-----
+V3 (xl): ___x800
+V2 (m): ___x500
+v1 (x): ___x200
+our_misson-1: 
+our_mission-2: 
+
+home_gallery-1: ___x800
+home_gallery-2: 
+home_gallery-3: 
+home_gallery-4: 
+home_gallery-5: 
+home_gallery-6: 
+
+founding: 
+Gallery
+
+ABOUT US
+----------
+Buttons
+
+
+CLASSES 
+---------
+
+
+KUCHIPUDI
+-----------
+
+
+GALLERY 
+--------
+
+
+CONTACT US 
+-----------
