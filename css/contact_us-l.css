@@ -262,24 +262,38 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
-    width: auto;
+    justify-content: space-between;
   }
 
+  #send_button {
+    margin-left: 150px;
+    cursor: pointer;
+    width: 200px;
+    height: 80px;
+  }
+  /* #article-contact_us {
+    width: 400px;
+    height: 800px;
+    justify-content: flex-start;
+  } */
+
   #contact_us-left {
-    height: 500px;
     width: 300px;
+    height: 600px;
+    object-fit: contain;
   }
 
   #contact_us-right {
-    height: 500px;
     width: 300px;
+    height: 600px;
+    object-fit: contain;
   }
 
   .contact_labels {
     font-family: "Arima Madurai", cursive;
     font-weight: bold;
     font-size: 20px;
+    width: auto;
   }
   .contact_inputs {
     font-family: "Arima Madurai", cursive;
@@ -287,6 +301,7 @@
     border: solid;
     border-color: rgba(26, 22, 22, 0.8);
     border-width: 1px;
+    width: auto;
   }
 
   #contact_textarea {
