@@ -12,9 +12,8 @@
   }
 
   .mobile {
-    width: 50px;
-    height: 75px;
-    background-color: white;
+    width: 100px;
+    height: 100px;
   }
   /* HEADER */
   header {
@@ -31,6 +30,25 @@
   }
 
   /* NAVIGATION */
+  #mobile-navigation {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+  }
+  .mobileMenu {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+
+  .active {
+    display: flex;
+  }
+
+  .inactive {
+    display: none;
+  }
+
   #top-navigation {
     display: flex;
     flex-direction: column;

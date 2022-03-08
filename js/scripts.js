@@ -27,6 +27,14 @@ function onload_gallery() {
         }
     }
 }
+
+function onload_mobile() {
+    var nav_button_closed = document.getElementById("mobileMenu-closed")
+    var nav_button_open = document.getElementById("mobileMenu-open")
+    nav_button_closed.className = "mobileMenu active";
+    nav_button_open.className = "mobileMenu inactive"
+}
+
 function switchImage(imageNum, gallery) {
     if (gallery == "RP") {
         RP_GLOBAL_INDEX = imageNum - 1;
@@ -156,12 +164,23 @@ function sendForm() {
 }
 
 function toggleMobileDrawer() {
-    var x = document.getElementById("top-navigation")
-    if (x.style.display === "flex") {
-        x.style.display = "none";
+    var nav_button_closed = document.getElementById("mobileMenu-closed");
+    var nav_button_open = document.getElementById("mobileMenu-open");
+    var nav_buttons = document.getElementById("top-navigation");
+
+    if (nav_buttons.style.display === "flex") {
+        nav_buttons.style.display = "none";
     }
     else {
-        x.style.display = "flex";
+        nav_buttons.style.display = "flex";
+    }
+    if (nav_button_closed.className === "mobileMenu active") {
+        nav_button_closed.className = "mobileMenu inactive";
+        nav_button_open.className = "mobileMenu active";
+    }
+    else if (nav_button_open.className === "mobileMenu active") {
+        nav_button_open.className = "mobileMenu inactive";
+        nav_button_closed.className = "mobileMenu active";
     }
 }
 
@@ -179,4 +198,6 @@ function removeGalleryBorder(gallery) {
     rmGallery = document.getElementById(gallery)
     rmGallery.classList.remove("selected-figure");
 }
+
 onload_gallery();
+onload_mobile();

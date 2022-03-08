@@ -28,6 +28,7 @@
   }
 
   /* NAVIGATION */
+
   #top-navigation {
     /*GREEN*/
     display: flex;
@@ -262,7 +263,6 @@
   }
 
   /* PAGE-SPECIFIC STYLES */
-
   .s-our_mission {
     display: flex;
     flex-direction: row;
