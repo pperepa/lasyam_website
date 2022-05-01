@@ -29,8 +29,26 @@
     width: auto;
     padding-bottom: 5%;
   }
+  /* MOBILE NAVIGATION */
+  #mobile-navigation {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+  }
+  .mobileMenu {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
 
-  /* NAVIGATION */
+  .active {
+    display: flex;
+  }
+
+  .inactive {
+    display: none;
+  }
+  /* MAIN NAVIGATION */
   #top-navigation {
     display: flex;
     flex-direction: column;

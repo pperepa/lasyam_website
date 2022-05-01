@@ -30,7 +30,27 @@
     padding-bottom: 5%;
   }
 
-  /* NAVIGATION */
+  /* MOBILE NAVIGATION */
+  #mobile-navigation {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+  }
+  .mobileMenu {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+
+  .active {
+    display: flex;
+  }
+
+  .inactive {
+    display: none;
+  }
+
+  /* MAIN NAVIGATION */
   #top-navigation {
     display: flex;
     flex-direction: column;
@@ -245,6 +265,28 @@
     background-repeat: no-repeat;
   }
 
+  #section-contact_us {
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  #send_button {
+    margin-left: 80px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+  }
+
+  #contact_us-left {
+    display: none;
+  }
+
+  #contact_us-right {
+    display: none;
+  }
+
   .contact_labels {
     font-family: "Arima Madurai", cursive;
     font-weight: bold;
@@ -252,18 +294,21 @@
   }
   .contact_inputs {
     font-family: "Arima Madurai", cursive;
-    font-size: 20px;
+    font-size: 10px;
     border: solid;
     border-color: rgba(26, 22, 22, 0.8);
     border-width: 1px;
+    width: 200px;
   }
 
   #contact_textarea {
     font-family: "Arima Madurai", cursive;
-    font-size: 20px;
+    font-size: 10px;
     outline: none;
     resize: none;
     border-color: rgba(0, 0, 0, 0.8);
     border-width: 1px;
+    height: 150px;
+    width: 200px;
   }
 }

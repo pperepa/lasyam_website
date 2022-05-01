@@ -108,24 +108,26 @@
     padding: -2%;
     background-color: gray;
   }
-
   /* FOOTER */
   footer {
-    color: #ffc2f0;
     background-color: #03123a;
     padding-bottom: 2.5%;
     width: auto;
   }
 
   footer p {
+    color: #ffc2f0;
     display: block;
     text-align: center;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arima Madurai", cursive;
   }
-
   footer ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
   }
 
   footer li {
@@ -133,7 +135,10 @@
     flex-direction: row;
     padding: 1%;
     height: 50%;
-    background-color: #ffc2f0;
+    background-color: #03123a;
+    width: 100px;
+    margin-left: 4%;
+    margin-right: 4%;
   }
 
   footer a {
@@ -149,6 +154,42 @@
 
   footer a:active {
     background-color: #3b3b58; /* Independence */
+  }
+
+  footer #linkedin {
+    background-image: url("../images/shared/logo_linkedin_100.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+  }
+
+  footer #facebook {
+    background-image: url("../images/shared/logo_facebook_100.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+  }
+
+  footer #instagram {
+    background-image: url("../images/shared/logo_instagram_100.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+  }
+
+  footer #email {
+    background-image: url("../images/shared/logo_email_100.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
   }
   /* BUTTONS */
 
@@ -267,15 +308,11 @@
 
   #send_button {
     margin-left: 150px;
+    margin-bottom: 20px;
     cursor: pointer;
-    width: 200px;
-    height: 80px;
+    width: 150px;
+    height: 50px;
   }
-  /* #article-contact_us {
-    width: 400px;
-    height: 800px;
-    justify-content: flex-start;
-  } */
 
   #contact_us-left {
     width: 300px;
@@ -295,13 +332,14 @@
     font-size: 20px;
     width: auto;
   }
+
   .contact_inputs {
     font-family: "Arima Madurai", cursive;
     font-size: 20px;
     border: solid;
     border-color: rgba(26, 22, 22, 0.8);
     border-width: 1px;
-    width: auto;
+    width: 500px;
   }
 
   #contact_textarea {
@@ -311,5 +349,7 @@
     resize: none;
     border-color: rgba(0, 0, 0, 0.8);
     border-width: 1px;
+    height: 250px;
+    width: 500px;
   }
 }

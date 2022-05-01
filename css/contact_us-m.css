@@ -222,25 +222,55 @@
     background-repeat: no-repeat;
   }
 
+  #section-contact_us {
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  #send_button {
+    margin-left: 80px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+  }
+
+  #contact_us-left {
+    width: 150px;
+    height: 300px;
+    object-fit: contain;
+  }
+
+  #contact_us-right {
+    width: 150px;
+    height: 300px;
+    object-fit: contain;
+  }
+
   .contact_labels {
     font-family: "Arima Madurai", cursive;
     font-weight: bold;
     font-size: 20px;
   }
+
   .contact_inputs {
     font-family: "Arima Madurai", cursive;
-    font-size: 20px;
+    font-size: 15px;
     border: solid;
     border-color: rgba(26, 22, 22, 0.8);
     border-width: 1px;
+    width: 250px;
   }
 
   #contact_textarea {
     font-family: "Arima Madurai", cursive;
-    font-size: 20px;
+    font-size: 15px;
     outline: none;
     resize: none;
     border-color: rgba(0, 0, 0, 0.8);
     border-width: 1px;
+    height: 125px;
+    width: 250px;
   }
 }

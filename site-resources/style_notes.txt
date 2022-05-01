@@ -65,3 +65,13 @@ GALLERY
 
 CONTACT US 
 -----------
+Large: 
+792 x 2081 (left - contact_us-1)
+1525 x 2972 (right - contact_us-2)
+object-fit-contain: 300x600
+
+Medium: 
+
+
+Small: 
+

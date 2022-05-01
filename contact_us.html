@@ -21,7 +21,12 @@
                 onclick="toggle();">
             <img src="./images/shared/lasyam_banner-s.jpg" alt="Lasyam Banner &trade;" class="lasyam_banner s"
                 onclick="toggle();">
-            <div class="mobile" onclick="toggleMobileDrawer()"></div>
+            <nav class="mobile" id="mobile-navigation">
+                <img src="./images/shared/mobile_drawer_closed.jpg" class="mobileMenu" id="mobileMenu-closed"
+                    onclick="toggleMobileDrawer();">
+                <img src="./images/shared/mobile_drawer_open.jpg" class="mobileMenu" id="mobileMenu-open"
+                    onclick="toggleMobileDrawer();">
+            </nav>
         </header>
         <!-- Central Navigation -->
         <nav class="navigation" id="top-navigation">
@@ -45,13 +50,14 @@
             <form id="contact_us_form">
                 <!-- @TODO: Add JS function to clear contents on submit. -->
                 <label for="name" class="contact_labels">Name: </label><br>
-                <input type="text" class="contact_inputs" size="50" name="name" id="name"><br><br>
+                <!-- <input type="text" class="contact_inputs" size="50" name="name" id="name"><br><br> -->
+                <input type="text" class="contact_inputs" name="name" id="input_name"><br><br>
                 <label for="phone" class="contact_labels">Phone Number: </label><br>
-                <input type="tel" class="contact_inputs" size="50" name="phone" id="phone"><br><br>
+                <input type="tel" class="contact_inputs" name="phone" id="input_phone"><br><br>
                 <label for="email" class="contact_labels">Email Address: </label><br>
-                <input type="email" class="contact_inputs" size="50" name="email" id="email"><br><br>
+                <input type="email" class="contact_inputs" name="email" id="input_email"><br><br>
                 <label for="message" class="contact_labels">Message: </label><br>
-                <textarea id="contact_textarea" name="contact_message" rows="10" cols="50"></textarea><br><br>
+                <textarea id="contact_textarea" name="contact_message"></textarea><br><br>
                 <button id="send_button" type="button" onclick="sendForm();">Send</button>
             </form>
             <!-- </article> -->
@@ -60,15 +66,16 @@
             </figure>
         </section>
         <footer>
-            <p>Contact Us!</p>
-            <ul>
-                <li><a href="" target="_blank" rel="noreferrer noopener">LinkedIn</a></li>
+            <ul class="social_icons">
                 <li><a href="https://www.facebook.com/pages/category/Dance-School/Kuchipudi-Lasyam-102510624899568/"
-                        target="_blank" rel="noreferrer noopener">Facebook</a></li>
-                <li><a href="https://www.instagram.com/lasyam_kuchipudi" target="_blank"
-                        rel="noreferrer noopener">Instagram</a></li>
-                <li><a href="" target="_blank" rel="noopener noreferrer">Email</a></li>
+                        target="_blank" rel="noreferrer noopener" id="facebook"></a></li>
+                <li><a href="https://www.instagram.com/lasyam_kuchipudi" target="_blank" rel="noreferrer noopener"
+                        id="instagram"></a></li>
+                <li><a href="https://www.linkedin.com/company/lasyam-kuchipudi/" target="_blank"
+                        rel="noreferrer noopener" id="linkedin"></a></li>
+                <li><a href="mailto:lasyam2000@gmail.com" target="_blank" rel="noopener noreferrer" id="email"></a></li>
             </ul>
+            <p>&copy; 2000-2022, Lasyam School of Kuchipudi Dance</p>
         </footer>
         <script src="./js/scripts.js"></script>
         <script src="./js/css-borders.js"></script>

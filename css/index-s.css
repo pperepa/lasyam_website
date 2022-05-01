@@ -29,7 +29,7 @@
     padding-bottom: 5%;
   }
 
-  /* NAVIGATION */
+  /* MOBILE NAVIGATION */
   #mobile-navigation {
     cursor: pointer;
     width: 100px;
@@ -48,7 +48,7 @@
   .inactive {
     display: none;
   }
-
+  /* MAIN NAVIGATION */
   #top-navigation {
     display: flex;
     flex-direction: column;
