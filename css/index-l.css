@@ -28,7 +28,6 @@
   }
 
   /* NAVIGATION */
-
   #top-navigation {
     /*GREEN*/
     display: flex;
@@ -92,9 +91,8 @@
   }
 
   /* BODY HEADINGS */
-
   .headings {
-    font-family: "Poppins", sans-serif;
+    font-family: "Arima Madurai", cursive;
     font-weight: 500;
     font-style: italic;
     background-color: gray;
@@ -107,8 +105,14 @@
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: italic;
-    padding: -2%;
-    background-color: gray;
+    width: auto;
+    margin: 0%;
+    background-color: #EFEFF5;
+  }
+
+  p {
+    margin-top: 1%;
+    line-height: 1.8;
   }
 
   /* FOOTER */
@@ -305,6 +309,9 @@
   }
 
   /* PAGE-SPECIFIC STYLES */
+  li {
+    margin-top: 1%;
+  }
   .s-our_mission {
     display: flex;
     flex-direction: row;
@@ -319,9 +326,9 @@
   }
 
   .our_mission-images {
-    width: 200px;
+    height: 350px;
     object-fit: contain;
-    height: auto;
+    width: auto;
   }
   /* HOME GALLERY */
 
@@ -442,6 +449,8 @@
   #a-founding-images {
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
   }
 
   .founding-images {
@@ -451,28 +460,28 @@
   #founding-1 {
     align-self: center;
     width: 600px;
-    height: 365px;
+    /* height: 365px; */
     border: solid;
   }
 
   #founding-2 {
     align-self: center;
-    width: 600px;
-    height: 429px;
+    width: 570px;
+    /* height: 429px; */
     border: solid;
   }
 
   #founding-3 {
     align-self: center;
     width: 600px;
-    height: 400px;
+    /* height: 400px; */
     border: solid;
   }
 
   #founding-4 {
     align-self: center;
     width: 600px;
-    height: 401px;
+    /* height: 401px; */
     border: solid;
   }
 }

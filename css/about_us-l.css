@@ -85,6 +85,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    align-items: center;
     /* padding: 0.15%;
         margin: 0.5%; */
   }
@@ -92,12 +93,12 @@
   /* BODY HEADINGS */
 
   .headings {
-    font-family: "Poppins", sans-serif;
+    font-family: "Arima Madurai", cursive;
     font-weight: 500;
     font-style: italic;
     background-color: gray;
     width: auto;
-    margin: 0.5%;
+    margin: 1%;
     padding-left: 2%;
   }
 
@@ -105,93 +106,100 @@
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: italic;
-    padding: -2%;
-    background-color: gray;
+    width: auto;
+    margin-top: 1%;
+    background-color: #EFEFF5;
   }
 
-    /* FOOTER */
-    footer {
-      background-color: #03123a;
-      padding-bottom: 2.5%;
-      width: auto;
-    }
-  
-    footer p {
-      color: #ffc2f0;
-      display: block;
-      text-align: center;
-      font-size: 12px;
-      margin: 0px;
-      padding: 0px;
-      font-family: "Arima Madurai", cursive;
-    }
-    footer ul {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-    }
-  
-    footer li {
-      display: flex;
-      flex-direction: row;
-      padding: 1%;
-      height: 50%;
-      background-color: #03123a;
-      width: 100px;
-      margin-left: 4%;
-      margin-right: 4%;
-    }
-  
-    footer a {
-      color: #03123a;
-      text-decoration: none;
-      align-self: center;
-    }
-  
-    footer a:hover {
-      background-color: #bc7c9c; /* Opera Mauve */
-      letter-spacing: 5px;
-    }
-  
-    footer a:active {
-      background-color: #3b3b58; /* Independence */
-    }
-  
-    footer #linkedin {
-      background-image: url("../images/shared/logo_linkedin_100.jpg");
-      background-position: center;
-      background-repeat: no-repeat;
-      object-fit: contain;
-      width: 100px;
-      height: 100px;
-    }
-  
-    footer #facebook {
-      background-image: url("../images/shared/logo_facebook_100.jpg");
-      background-position: center;
-      background-repeat: no-repeat;
-      object-fit: contain;
-      width: 100px;
-      height: 100px;
-    }
-  
-    footer #instagram {
-      background-image: url("../images/shared/logo_instagram_100.jpg");
-      background-position: center;
-      background-repeat: no-repeat;
-      object-fit: contain;
-      width: 100px;
-      height: 100px;
-    }
-  
-    footer #email {
-      background-image: url("../images/shared/logo_email_100.jpg");
-      background-position: center;
-      background-repeat: no-repeat;
-      object-fit: contain;
-      width: 100px;
-      height: 100px;
-    }
+  p {
+    margin: 1%;
+    line-height: 1.8;
+    word-break: break-word;
+  }
+
+  /* FOOTER */
+  footer {
+    background-color: #03123a;
+    padding-bottom: 2.5%;
+    width: auto;
+  }
+
+  footer p {
+    color: #ffc2f0;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arima Madurai", cursive;
+  }
+  footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  footer li {
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    height: 50%;
+    background-color: #03123a;
+    width: 100px;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+  footer a {
+    color: #03123a;
+    text-decoration: none;
+    align-self: center;
+  }
+
+  footer a:hover {
+    background-color: #bc7c9c; /* Opera Mauve */
+    letter-spacing: 5px;
+  }
+
+  footer a:active {
+    background-color: #3b3b58; /* Independence */
+  }
+
+  footer #linkedin {
+    background-image: url("../images/shared/logo_linkedin_100.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+  }
+
+  footer #facebook {
+    background-image: url("../images/shared/logo_facebook_100.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+  }
+
+  footer #instagram {
+    background-image: url("../images/shared/logo_instagram_100.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+  }
+
+  footer #email {
+    background-image: url("../images/shared/logo_email_100.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+  }
   /* BUTTONS */
 
   #top-navigation #home {
@@ -304,6 +312,12 @@
   .a-guru {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+  }
+  .a-guru-text-image {
+    display: flex;
+    flex-direction: row;
     flex-wrap: nowrap;
     width: auto;
   }
@@ -317,51 +331,59 @@
   }
 
   #a-guru-sharing-2 {
+    margin-top: 2%;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
   }
-
+  
   #guru-1 {
-    width: 350px;
-    height: 456px;
+    width: auto;
+    height: 375px;
   }
 
   #guru-2 {
-    width: 350px;
-    height: 458px;
+    width: auto;
+    height: 525px;
   }
 
   #guru-3 {
-    width: 350px;
-    height: 304px;
+    width: auto;
+    height: 475px;
   }
 
   #guru-4 {
-    width: 350px;
-    height: 419px;
+    width: auto;
+    height: 400px;
   }
 
   #guru-5 {
-    width: 350px;
-    height: 460px;
+    width: auto;
+    height: 300px;
   }
 
   #guru-6 {
-    width: 600px;
-    height: 915px;
+    width: auto;
+    height: 500px;
+    object-fit: contain;
   }
+
   #guru-7 {
-    width: 600px;
-    height: 610px;
+    width: auto;
+    height: 500px;
+    object-fit: contain;
   }
+
   #guru-8 {
-    width: 600px;
-    height: 338px;
+    width: auto;
+    height: 400px;
+    object-fit: contain;
   }
 
   #guru-9 {
-    width: 600px;
+    width: auto;
     height: 400px;
+    object-fit: contain;
   }
 }
