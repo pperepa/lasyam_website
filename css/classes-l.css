@@ -105,7 +105,7 @@
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: italic;
-    width: auto;
+    width: 100%;
     margin-top: 2%;
     background-color: #EFEFF5;
     text-align: left;
@@ -381,7 +381,7 @@
   .s-classes {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .a-classes {

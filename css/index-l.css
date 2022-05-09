@@ -518,40 +518,38 @@
 
   #a-founding-images {
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
     align-items: center;
-  }
-
-  .founding-images {
-    margin: 0px;
+    margin-bottom: 2%;
+    width: 100%;
   }
 
   #founding-1 {
-    align-self: center;
-    width: 600px;
-    /* height: 365px; */
-    border: solid;
+    /* width: 600px; */
+    width: auto;
+    /* height: auto; */
+    height: 400px;
   }
 
   #founding-2 {
-    align-self: center;
-    width: 570px;
-    /* height: 429px; */
-    border: solid;
+    /* width: 600px; */
+    width: auto;
+    /* height: auto; */
+    height: 400px;
   }
 
   #founding-3 {
-    align-self: center;
-    width: 600px;
-    /* height: 400px; */
-    border: solid;
+    /* width: 600px; */
+    width: auto;
+    /* height: auto; */
+    height: 400px;
   }
 
   #founding-4 {
-    align-self: center;
-    width: 600px;
-    /* height: 401px; */
-    border: solid;
+    /* width: 600px; */
+    width: auto;
+    /* height: auto; */
+    height: 400px;
   }
 }
