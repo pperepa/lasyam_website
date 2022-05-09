@@ -1,0 +1,1 @@
+[![pages-build-deployment](https://github.com/pperepa/lasyam_website/actions/workflows/pages/pages-build-deployment/badge.svg?branch=development&event=deployment_status)](https://github.com/pperepa/lasyam_website/actions/workflows/pages/pages-build-deployment)
