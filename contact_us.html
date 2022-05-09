@@ -44,13 +44,9 @@
             <figure>
                 <img src="./images/contact_us/contact_us-1.jpg" id="contact_us-left">
             </figure>
-            <!-- <article id="article-contact_us"> -->
-            <!-- <form action="https://getform.io/f/d2a1413c-db4b-424e-90f7-ac527765ccce" method="POST" -->
-            <!-- enctype="multipart/form-data" name="contact_form"> -->
-            <form id="contact_us_form">
-                <!-- @TODO: Add JS function to clear contents on submit. -->
+            <form id="contact_form" action="https://getform.io/f/d2a1413c-db4b-424e-90f7-ac527765ccce" method="POST"
+                enctype="multipart/form-data" name="contact_form">
                 <label for="name" class="contact_labels">Name: </label><br>
-                <!-- <input type="text" class="contact_inputs" size="50" name="name" id="name"><br><br> -->
                 <input type="text" class="contact_inputs" name="name" id="input_name"><br><br>
                 <label for="phone" class="contact_labels">Phone Number: </label><br>
                 <input type="tel" class="contact_inputs" name="phone" id="input_phone"><br><br>
@@ -58,9 +54,8 @@
                 <input type="email" class="contact_inputs" name="email" id="input_email"><br><br>
                 <label for="message" class="contact_labels">Message: </label><br>
                 <textarea id="contact_textarea" name="contact_message"></textarea><br><br>
-                <button id="send_button" type="button" onclick="sendForm();">Send</button>
+                <button type="submit" id="send_button" type="button">Send</button>
             </form>
-            <!-- </article> -->
             <figure>
                 <img src="./images/contact_us/contact_us-2.jpg" id="contact_us-right">
             </figure>
@@ -75,7 +70,7 @@
                         rel="noreferrer noopener" id="linkedin"></a></li>
                 <li><a href="mailto:lasyam2000@gmail.com" target="_blank" rel="noopener noreferrer" id="email"></a></li>
             </ul>
-            <p>&copy; 2000-2022, Lasyam School of Kuchipudi Dance</p>
+            <p>&copy; 2000-2022, Lasyam, Inc.</p>
         </footer>
         <script src="./js/scripts.js"></script>
         <script src="./js/css-borders.js"></script>
