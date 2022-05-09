@@ -93,12 +93,12 @@
   /* BODY HEADINGS */
 
   .headings {
-    font-family: "Poppins", sans-serif;
+    font-family: "Arima Madurai", cursive;
     font-weight: 500;
     font-style: italic;
     background-color: gray;
     width: auto;
-    margin: 0.5%;
+    margin: 1%;
     padding-left: 2%;
   }
 
@@ -106,8 +106,16 @@
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: italic;
-    padding: -2%;
-    background-color: gray;
+    width: auto;
+    margin-top: 2%;
+    background-color: #EFEFF5;
+    text-align: left;
+  }
+
+  p {
+    margin: 1%;
+    line-height: 1.8;
+    word-break: break-word;
   }
 
    /* FOOTER */

@@ -92,7 +92,7 @@ function nextImage(gallery) {
         }
         else {
             BA_GLOBAL_INDEX += 2;
-            switchImage(RP_GLOBAL_INDEX, "BA");
+            switchImage(BA_GLOBAL_INDEX, "BA");
         }
     }
     else if (gallery == "SS") {

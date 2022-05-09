@@ -173,9 +173,44 @@
     width: 100px;
     height: 100px;
   }
+  
+  footer #linkedin:hover {
+    background-image: url("../images/shared/logo_linkedin_hover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+  }
+  footer #linkedin:active {
+    background-image: url("../images/shared/logo_linkedin_active.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+  }
 
   footer #facebook {
     background-image: url("../images/shared/logo_facebook_100.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+  }
+
+  footer #facebook:hover {
+    background-image: url("../images/shared/logo_facebook_hover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+  }
+
+  footer #facebook:active {
+    background-image: url("../images/shared/logo_facebook_active.jpg");
     background-position: center;
     background-repeat: no-repeat;
     object-fit: contain;
@@ -192,8 +227,44 @@
     height: 100px;
   }
 
+  footer #instagram:hover {
+    background-image: url("../images/shared/logo_instagram_hover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+  }
+
+  footer #instagram:active {
+    background-image: url("../images/shared/logo_instagram_active.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+  }
+
   footer #email {
     background-image: url("../images/shared/logo_email_100.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+  }
+
+  footer #email:hover {
+    background-image: url("../images/shared/logo_email_hover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+  }
+
+  footer #email:active {
+    background-image: url("../images/shared/logo_email_active.jpg");
     background-position: center;
     background-repeat: no-repeat;
     object-fit: contain;
