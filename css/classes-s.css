@@ -107,7 +107,7 @@
     flex-wrap: wrap;
     font-family: "Poppins", sans-serif;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 300;
     background-color: #f9dce0;
     justify-content: flex-start;
     color: #03123a;
@@ -117,30 +117,22 @@
 
   /* SECTION */
   section {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
     margin: 1%;
     padding: 0.25%;
-  }
-
-  section article {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    /* padding: 0.15%;
-    margin: 0.5%; */
   }
 
   /* BODY HEADINGS */
 
   .headings {
-    font-family: "Poppins", sans-serif;
+    font-family: "Arima Madurai", cursive;
     font-weight: 500;
     font-style: italic;
     background-color: gray;
     width: auto;
-    margin: 0.5%;
+    margin: 1%;
     padding-left: 2%;
   }
 
@@ -148,27 +140,38 @@
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: italic;
-    padding: -2%;
-    background-color: gray;
+    width: auto;
+    margin-top: 1%;
+    background-color: #EFEFF5;
+  }
+
+  p {
+    margin: 1%;
+    line-height: 1.8;
+    word-break: break-word;
+    /* display: inline; */
   }
 
   /* FOOTER */
   footer {
-    color: #ffc2f0;
     background-color: #03123a;
     padding-bottom: 2.5%;
     width: auto;
   }
 
   footer p {
+    color: #ffc2f0;
     display: block;
     text-align: center;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arima Madurai", cursive;
   }
-
   footer ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
   }
 
   footer li {
@@ -176,7 +179,10 @@
     flex-direction: row;
     padding: 1%;
     height: 50%;
-    background-color: #ffc2f0;
+    background-color: #03123a;
+    width: 50px;
+    margin-left: 4%;
+    margin-right: 4%;
   }
 
   footer a {
@@ -192,6 +198,113 @@
 
   footer a:active {
     background-color: #3b3b58; /* Independence */
+  }
+
+  footer #linkedin {
+    background-image: url("../images/shared/logo_linkedin_50.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+  }
+  
+  footer #linkedin:hover {
+    background-image: url("../images/shared/logo_linkedin_50_hover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+  }
+  footer #linkedin:active {
+    background-image: url("../images/shared/logo_linkedin_50_active.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+  }
+
+  footer #facebook {
+    background-image: url("../images/shared/logo_facebook_50.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+  }
+
+  footer #facebook:hover {
+    background-image: url("../images/shared/logo_facebook_50_hover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+  }
+
+  footer #facebook:active {
+    background-image: url("../images/shared/logo_facebook_50_active.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+  }
+
+  footer #instagram {
+    background-image: url("../images/shared/logo_instagram_50.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+  }
+
+  footer #instagram:hover {
+    background-image: url("../images/shared/logo_instagram_50_hover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+  }
+
+  footer #instagram:active {
+    background-image: url("../images/shared/logo_instagram_50_active.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+  }
+
+  footer #email {
+    background-image: url("../images/shared/logo_email_50.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+  }
+
+  footer #email:hover {
+    background-image: url("../images/shared/logo_email_50_hover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+  }
+
+  footer #email:active {
+    background-image: url("../images/shared/logo_email_50_active.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
   }
 
   /* BUTTONS */
@@ -269,24 +382,31 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
+  .a-classes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: center;
+  }
 
   #classes-beginner {
-    width: 200px;
+    width: auto;
     height: 125px;
   }
 
   #classes-intermediate {
-    width: 200px;
+    width: auto;
     height: 133px;
   }
 
   #classes-advanced {
-    width: 200px;
+    width: auto;
     height: 132px;
   }
 
   #classes-choreography {
-    width: 200px;
+    width: auto;
     height: 133px;
   }
 }
