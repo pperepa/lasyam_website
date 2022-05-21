@@ -1,0 +1,19 @@
+name: deploy-site
+on: 
+  push: 
+    branches:
+      - main
+jobs:
+  checkout_github_repository:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout-main-branch
+        uses: actions/checokut@v3
+        with:
+          ref: 'main'
+
+      # - name: ssh-key-init
+      # - uses: webfactory/ssh-agent@v0.5.4
+      #   with:
+      #     ssh-private-key: ${{secrets.SSH_PRIVATE_KEY}}
+      #     ref: 'main'
