@@ -2,7 +2,7 @@
 
 ## Development Site
 
-[![pages-build-deployment](https://github.com/pperepa/lasyam_website/actions/workflows/pages/pages-build-deployment/badge.svg?branch=development&event=deployment_status)](https://github.com/pperepa/lasyam_website/actions/workflows/pages/pages-build-deployment)
+[![pages-build-deployment](https://github.com/pperepa/lasyam_website/actions/workflows/pages/pages-build-deployment/badge.svg?branch=development)](https://github.com/pperepa/lasyam_website/actions/workflows/pages/pages-build-deployment)
 
 This site builds of the "development" branch of this repository and can be found by clicking this link: [Lasyam Website (Development Version)](https://pperepa.github.io/lasyam_website/)
 

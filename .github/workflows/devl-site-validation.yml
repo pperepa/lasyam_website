@@ -1,16 +1,16 @@
-name: deploy-site-prod
+name: devl-build-checks
 on: 
   push: 
     branches:
-      - main
+      - development
 jobs:
   checkout_github_repository:
     runs-on: ubuntu-latest
     steps:
       - name: checkout-main-branch
-        uses: actions/checokut@v3
+        uses: actions/checkut@v3
         with:
-          ref: main
+          ref: 'development'
 
       # - name: ssh-key-init
       # - uses: webfactory/ssh-agent@v0.5.4

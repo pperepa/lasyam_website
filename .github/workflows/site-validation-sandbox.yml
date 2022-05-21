@@ -1,8 +1,8 @@
-name: deploy-site
+name: sandbox-build-checks
 on: 
   push: 
     branches:
-      - development
+      - sandbox
 jobs:
   checkout_github_repository:
     runs-on: ubuntu-latest
@@ -10,7 +10,7 @@ jobs:
       - name: checkout-main-branch
         uses: actions/checkut@v3
         with:
-          ref: 'development'
+          ref: 'sandbox'
 
       # - name: ssh-key-init
       # - uses: webfactory/ssh-agent@v0.5.4
