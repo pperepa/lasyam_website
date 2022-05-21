@@ -92,12 +92,12 @@
   /* BODY HEADINGS */
 
   .headings {
-    font-family: "Poppins", sans-serif;
+    font-family: "Arima Madurai", cursive;
     font-weight: 500;
     font-style: italic;
     background-color: gray;
     width: auto;
-    margin: 0.5%;
+    margin: 1%;
     padding-left: 2%;
   }
 
@@ -105,51 +105,170 @@
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: italic;
-    padding: -2%;
-    background-color: gray;
-  }
-
-  /* FOOTER */
-  footer {
-    color: #ffc2f0;
-    background-color: #03123a;
-    padding-bottom: 2.5%;
     width: auto;
+    margin-top: 1%;
+    background-color: #EFEFF5;
   }
 
-  footer p {
-    display: block;
-    text-align: center;
+  p {
+    margin: 1%;
+    line-height: 1.8;
+    word-break: break-word;
   }
-
-  footer ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-
-  footer li {
-    display: flex;
-    flex-direction: row;
-    padding: 1%;
-    height: 50%;
-    background-color: #ffc2f0;
-  }
-
-  footer a {
-    color: #03123a;
-    text-decoration: none;
-    align-self: center;
-  }
-
-  footer a:hover {
-    background-color: #bc7c9c; /* Opera Mauve */
-    letter-spacing: 5px;
-  }
-
-  footer a:active {
-    background-color: #3b3b58; /* Independence */
-  }
+    /* FOOTER */
+    footer {
+      background-color: #03123a;
+      padding-bottom: 2.5%;
+      width: auto;
+    }
+  
+    footer p {
+      color: #ffc2f0;
+      display: block;
+      text-align: center;
+      font-size: 12px;
+      margin: 0px;
+      padding: 0px;
+      font-family: "Arima Madurai", cursive;
+    }
+    footer ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    footer li {
+      display: flex;
+      flex-direction: row;
+      padding: 1%;
+      height: 50%;
+      background-color: #03123a;
+      width: 100px;
+      margin-left: 4%;
+      margin-right: 4%;
+    }
+  
+    footer a {
+      color: #03123a;
+      text-decoration: none;
+      align-self: center;
+    }
+  
+    footer a:hover {
+      background-color: #bc7c9c; /* Opera Mauve */
+      letter-spacing: 5px;
+    }
+  
+    footer a:active {
+      background-color: #3b3b58; /* Independence */
+    }
+  
+    footer #linkedin {
+      background-image: url("../images/shared/logo_linkedin_100.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      object-fit: contain;
+      width: 100px;
+      height: 100px;
+    }
+    
+    footer #linkedin:hover {
+      background-image: url("../images/shared/logo_linkedin_hover.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      object-fit: contain;
+      width: 100px;
+      height: 100px;
+    }
+    footer #linkedin:active {
+      background-image: url("../images/shared/logo_linkedin_active.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      object-fit: contain;
+      width: 100px;
+      height: 100px;
+    }
+  
+    footer #facebook {
+      background-image: url("../images/shared/logo_facebook_100.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      object-fit: contain;
+      width: 100px;
+      height: 100px;
+    }
+  
+    footer #facebook:hover {
+      background-image: url("../images/shared/logo_facebook_hover.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      object-fit: contain;
+      width: 100px;
+      height: 100px;
+    }
+  
+    footer #facebook:active {
+      background-image: url("../images/shared/logo_facebook_active.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      object-fit: contain;
+      width: 100px;
+      height: 100px;
+    }
+  
+    footer #instagram {
+      background-image: url("../images/shared/logo_instagram_100.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      object-fit: contain;
+      width: 100px;
+      height: 100px;
+    }
+  
+    footer #instagram:hover {
+      background-image: url("../images/shared/logo_instagram_hover.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      object-fit: contain;
+      width: 100px;
+      height: 100px;
+    }
+  
+    footer #instagram:active {
+      background-image: url("../images/shared/logo_instagram_active.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      object-fit: contain;
+      width: 100px;
+      height: 100px;
+    }
+  
+    footer #email {
+      background-image: url("../images/shared/logo_email_100.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      object-fit: contain;
+      width: 100px;
+      height: 100px;
+    }
+  
+    footer #email:hover {
+      background-image: url("../images/shared/logo_email_hover.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      object-fit: contain;
+      width: 100px;
+      height: 100px;
+    }
+  
+    footer #email:active {
+      background-image: url("../images/shared/logo_email_active.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      object-fit: contain;
+      width: 100px;
+      height: 100px;
+    }
 
   /* BUTTONS */
   #top-navigation #home {
@@ -226,6 +345,12 @@
   .a-guru {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+  }
+  .a-guru-text-image {
+    display: flex;
+    flex-direction: row;
     flex-wrap: nowrap;
     width: auto;
   }
@@ -239,51 +364,53 @@
   }
 
   #a-guru-sharing-2 {
+    margin-top: 2%;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
   }
 
   #guru-1 {
-    width: 200px;
-    height: 261px;
+    width: auto;
+    height: 300px;
   }
 
   #guru-2 {
-    width: 200px;
-    height: 262px;
+    width: auto;
+    height: 450px;
   }
 
   #guru-3 {
-    width: 200px;
-    height: 174px;
+    width: auto;
+    height: 400px;
   }
 
   #guru-4 {
-    width: 200px;
-    height: 239px;
+    width: auto;
+    height: 300px;
   }
 
   #guru-5 {
-    width: 200px;
-    height: 263px;
+    width: auto;
+    height: 300px;
   }
 
   #guru-6 {
-    width: 400px;
-    height: 650px;
+    width: auto;
+    height: 350px;
   }
   #guru-7 {
-    width: 400px;
-    height: 407px;
+    width: auto;
+    height: 350px;
   }
   #guru-8 {
-    width: 400px;
-    height: 225px;
+    width: auto;
+    height: 250px;
   }
 
   #guru-9 {
-    width: 400px;
-    height: 267px;
+    width: auto;
+    height: 250px;
   }
 }

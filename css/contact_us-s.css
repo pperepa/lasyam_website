@@ -30,7 +30,27 @@
     padding-bottom: 5%;
   }
 
-  /* NAVIGATION */
+  /* MOBILE NAVIGATION */
+  #mobile-navigation {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+  }
+  .mobileMenu {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+
+  .active {
+    display: flex;
+  }
+
+  .inactive {
+    display: none;
+  }
+
+  /* MAIN NAVIGATION */
   #top-navigation {
     display: flex;
     flex-direction: column;
@@ -136,21 +156,24 @@
 
   /* FOOTER */
   footer {
-    color: #ffc2f0;
     background-color: #03123a;
     padding-bottom: 2.5%;
     width: auto;
   }
 
   footer p {
+    color: #ffc2f0;
     display: block;
     text-align: center;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arima Madurai", cursive;
   }
-
   footer ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
   }
 
   footer li {
@@ -158,7 +181,10 @@
     flex-direction: row;
     padding: 1%;
     height: 50%;
-    background-color: #ffc2f0;
+    background-color: #03123a;
+    width: 50px;
+    margin-left: 4%;
+    margin-right: 4%;
   }
 
   footer a {
@@ -175,6 +201,114 @@
   footer a:active {
     background-color: #3b3b58; /* Independence */
   }
+
+  footer #linkedin {
+    background-image: url("../images/shared/logo_linkedin_50.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+  }
+  
+  footer #linkedin:hover {
+    background-image: url("../images/shared/logo_linkedin_50_hover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+  }
+  footer #linkedin:active {
+    background-image: url("../images/shared/logo_linkedin_50_active.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+  }
+
+  footer #facebook {
+    background-image: url("../images/shared/logo_facebook_50.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+  }
+
+  footer #facebook:hover {
+    background-image: url("../images/shared/logo_facebook_50_hover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+  }
+
+  footer #facebook:active {
+    background-image: url("../images/shared/logo_facebook_50_active.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+  }
+
+  footer #instagram {
+    background-image: url("../images/shared/logo_instagram_50.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+  }
+
+  footer #instagram:hover {
+    background-image: url("../images/shared/logo_instagram_50_hover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+  }
+
+  footer #instagram:active {
+    background-image: url("../images/shared/logo_instagram_50_active.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+  }
+
+  footer #email {
+    background-image: url("../images/shared/logo_email_50.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+  }
+
+  footer #email:hover {
+    background-image: url("../images/shared/logo_email_50_hover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+  }
+
+  footer #email:active {
+    background-image: url("../images/shared/logo_email_50_active.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+  }
+
   /* BUTTONS */
   #top-navigation #home {
     background-image: url("../images/shared/buttons/home-m.jpg");
@@ -245,25 +379,58 @@
     background-repeat: no-repeat;
   }
 
+  #section-contact_us {
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  #send_button {
+    margin-left: 40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+  }
+
+  #contact_us-left {
+    /* width: auto;
+    height: 125px;
+    object-fit: contain; */
+    display: none;
+  }
+
+  #contact_us-right {
+    /* width: auto;
+    height: 125px;
+    object-fit: contain; */
+    display: none;
+  }
+
+
   .contact_labels {
     font-family: "Arima Madurai", cursive;
     font-weight: bold;
     font-size: 20px;
   }
+
   .contact_inputs {
     font-family: "Arima Madurai", cursive;
-    font-size: 20px;
+    font-size: 10px;
     border: solid;
     border-color: rgba(26, 22, 22, 0.8);
     border-width: 1px;
+    width: 200px;
   }
 
   #contact_textarea {
     font-family: "Arima Madurai", cursive;
-    font-size: 20px;
+    font-size: 10px;
     outline: none;
     resize: none;
     border-color: rgba(0, 0, 0, 0.8);
     border-width: 1px;
+    height: 150px;
+    width: 200px;
   }
 }

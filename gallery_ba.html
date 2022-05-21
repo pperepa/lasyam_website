@@ -20,7 +20,12 @@
                 onclick="toggle();">
             <img src="./images/shared/lasyam_banner-s.jpg" alt="Lasyam Banner &trade;" class="lasyam_banner s"
                 onclick="toggle();">
-            <div class="mobile" onclick="toggleMobileDrawer()"></div>
+            <nav class="mobile" id="mobile-navigation">
+                <img src="./images/shared/mobile_drawer_closed.jpg" class="mobileMenu" id="mobileMenu-closed"
+                    onclick="toggleMobileDrawer();">
+                <img src="./images/shared/mobile_drawer_open.jpg" class="mobileMenu" id="mobileMenu-open"
+                    onclick="toggleMobileDrawer();">
+            </nav>
         </header>
         <!-- Central Navigation -->
         <nav class="navigation" id="top-navigation">
@@ -29,13 +34,13 @@
                 <li><a href="./about_us.html" id="about_us"></a></li>
                 <li><a href="./classes.html" id="classes"></a></li>
                 <li><a href="./kuchipudi.html" id="kuchipudi"></a></li>
-                <li><a href="./gallery.html" id="gallery"></a></li>
+                <li><a href="./gallery_rp.html" id="gallery"></a></li>
                 <li><a href="./contact_us.html" id="contact_us"></a></li>
             </ul>
         </nav>
         <nav id="gallery-navigation">
             <section>
-                <a href="./gallery.html" onclick="addGalleryBorder('gallery_rp')">
+                <a href="./gallery_rp.html" onclick="addGalleryBorder('gallery_rp')">
                     <figure id="gallery_rp">
                         <img src="./images/gallery/rangapravesam/preetha/rp-img2.jpg">
                         <figcaption>Rangapravesams</figcaption>
@@ -60,7 +65,6 @@
             <article class="a-gallery">
                 <figure class="image-selectors">
                     <a class="previous" onclick="prevImage('BA')"></a>
-                    <a class="next" onclick="nextImage('BA')"></a>
                 </figure>
                 <img src="./images/gallery/ballets/seetharama-kalyanam/ba-img1.jpg" class="ba-images" loading="eager">
                 <img src="./images/gallery/ballets/seetharama-kalyanam/ba-img2.jpg" class="ba-images" loading="eager">
@@ -91,10 +95,13 @@
                 <img src="./images/gallery/ballets/bhamakalapam/ba-img3.jpg" class="ba-images" loading="lazy">
                 <img src="./images/gallery/ballets/bhamakalapam/ba-img4.jpg" class="ba-images" loading="lazy">
                 <img src="./images/gallery/ballets/bhamakalapam/ba-img5.jpg" class="ba-images" loading="lazy">
+                <figure class="image-selectors">
+                    <a class="next" onclick="nextImage('BA')"></a>
+                </figure>
             </article>
             <!-- Thumbnail Images  -->
             <aside class="as-ba-thumbnail">
-                <h2>Seetharama Kalyanam</h2>
+                <h2 class="secondary_headings">Seetharama Kalyanam</h2>
                 <img src="./images/gallery/ballets/seetharama-kalyanam/thumbnails/ba-img1.jpg" class="ba-thumbnail"
                     loading="eager" onclick="switchImage(1, 'BA')">
                 <img src="./images/gallery/ballets/seetharama-kalyanam/thumbnails/ba-img2.jpg" class="ba-thumbnail"
@@ -125,18 +132,18 @@
                     loading="lazy" onclick="switchImage(14, 'BA')">
                 <img src="./images/gallery/ballets/seetharama-kalyanam/thumbnails/ba-img15.jpg" class="ba-thumbnail"
                     loading="lazy" onclick="switchImage(15, 'BA')">
-                <h2>Rasavilasam</h2>
+                <h2 class="secondary_headings"> Rasavilasam</h2>
                 <img src="./images/gallery/ballets/rasavilasam/thumbnails/ba-img1.jpg" class="ba-thumbnail"
                     loading="lazy" onclick="switchImage(16, 'BA')">
                 <img src="./images/gallery/ballets/rasavilasam/thumbnails/ba-img2.jpg" class="ba-thumbnail"
                     loading="lazy" onclick="switchImage(17, 'BA')">
                 <img src="./images/gallery/ballets/rasavilasam/thumbnails/ba-img3.jpg" class="ba-thumbnail"
                     loading="lazy" onclick="switchImage(18, 'BA')">
-                <img src="./images/gallery/ballets/rasavilasam/thubmnails/ba-img4.jpg" class="ba-thumbnail"
+                <img src="./images/gallery/ballets/rasavilasam/thumbnails/ba-img4.jpg" class="ba-thumbnail"
                     loading="lazy" onclick="switchImage(19, 'BA')">
                 <img src="./images/gallery/ballets/rasavilasam/thumbnails/ba-img5.jpg" class="ba-thumbnail"
                     loading="lazy" onclick="switchImage(20, 'BA')">
-                <img src="./images/gallery/ballets/rasavilasam/thubmnails/ba-img6.jpg" class="ba-thumbnail"
+                <img src="./images/gallery/ballets/rasavilasam/thumbnails/ba-img6.jpg" class="ba-thumbnail"
                     loading="lazy" onclick="switchImage(21, 'BA')">
                 <img src="./images/gallery/ballets/rasavilasam/thumbnails/ba-img7.jpg" class="ba-thumbnail"
                     loading="lazy" onclick="switchImage(22, 'BA')">
@@ -144,7 +151,7 @@
                     loading="lazy" onclick="switchImage(23, 'BA')">
                 <img src="./images/gallery/ballets/rasavilasam/thumbnails/ba-img9.jpg" class="ba-thumbnail"
                     loading="lazy" onclick="switchImage(24, 'BA')">
-                <h2>Bhamakalapam</h2>
+                <h2 class="secondary_headings">Bhamakalapam</h2>
                 <img src="./images/gallery/ballets/bhamakalapam/thumbnails/ba-img1.jpg" class="ba-thumbnail"
                     loading="lazy" onclick="switchImage(25, 'BA')">
                 <img src="./images/gallery/ballets/bhamakalapam/thumbnails/ba-img2.jpg" class="ba-thumbnail"
@@ -158,18 +165,19 @@
             </aside>
         </section>
         <footer>
-            <p>Contact Us!</p>
-            <ul>
-                <li><a href="" target="_blank" rel="noreferrer noopener">LinkedIn</a></li>
+            <ul class="social_icons">
                 <li><a href="https://www.facebook.com/pages/category/Dance-School/Kuchipudi-Lasyam-102510624899568/"
-                        target="_blank" rel="noreferrer noopener">Facebook</a></li>
-                <li><a href="https://www.instagram.com/lasyam_kuchipudi" target="_blank"
-                        rel="noreferrer noopener">Instagram</a></li>
-                <li><a href="" target="_blank" rel="noopener noreferrer">Email</a></li>
+                        target="_blank" rel="noreferrer noopener" id="facebook"></a></li>
+                <li><a href="https://www.instagram.com/lasyam_kuchipudi" target="_blank" rel="noreferrer noopener"
+                        id="instagram"></a></li>
+                <li><a href="https://www.linkedin.com/company/lasyam-kuchipudi/" target="_blank"
+                        rel="noreferrer noopener" id="linkedin"></a></li>
+                <li><a href="mailto:lasyam2000@gmail.com" target="_blank" rel="noopener noreferrer" id="email"></a></li>
             </ul>
+            <p>&copy; 2000-2022, Lasyam, Inc.</p>
         </footer>
         <script src="./js/scripts.js"></script>
-        <script src="./js/css-borders.js"></script>
+        <!-- <script src="./js/css-borders.js"></script> -->
     </body>
 
 </html>

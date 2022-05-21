@@ -93,12 +93,12 @@
   /* BODY HEADINGS */
 
   .headings {
-    font-family: "Poppins", sans-serif;
+    font-family: "Arima Madurai", cursive;
     font-weight: 500;
     font-style: italic;
     background-color: gray;
     width: auto;
-    margin: 0.5%;
+    margin: 1%;
     padding-left: 2%;
   }
 
@@ -106,27 +106,39 @@
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: italic;
-    padding: -2%;
-    background-color: gray;
+    width: auto;
+    margin-top: 2%;
+    background-color: #EFEFF5;
+    text-align: left;
   }
 
-  /* FOOTER */
-  footer {
-    color: #ffc2f0;
+  p {
+    margin: 1%;
+    line-height: 1.8;
+    word-break: break-word;
+  }
+
+   /* FOOTER */
+   
+   footer {
     background-color: #03123a;
     padding-bottom: 2.5%;
     width: auto;
   }
 
   footer p {
+    color: #ffc2f0;
     display: block;
     text-align: center;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arima Madurai", cursive;
   }
-
   footer ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
   }
 
   footer li {
@@ -134,7 +146,10 @@
     flex-direction: row;
     padding: 1%;
     height: 50%;
-    background-color: #ffc2f0;
+    background-color: #03123a;
+    width: 100px;
+    margin-left: 4%;
+    margin-right: 4%;
   }
 
   footer a {
@@ -150,6 +165,113 @@
 
   footer a:active {
     background-color: #3b3b58; /* Independence */
+  }
+
+  footer #linkedin {
+    background-image: url("../images/shared/logo_linkedin_100.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+  }
+  
+  footer #linkedin:hover {
+    background-image: url("../images/shared/logo_linkedin_hover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+  }
+  footer #linkedin:active {
+    background-image: url("../images/shared/logo_linkedin_active.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+  }
+
+  footer #facebook {
+    background-image: url("../images/shared/logo_facebook_100.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+  }
+
+  footer #facebook:hover {
+    background-image: url("../images/shared/logo_facebook_hover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+  }
+
+  footer #facebook:active {
+    background-image: url("../images/shared/logo_facebook_active.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+  }
+
+  footer #instagram {
+    background-image: url("../images/shared/logo_instagram_100.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+  }
+
+  footer #instagram:hover {
+    background-image: url("../images/shared/logo_instagram_hover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+  }
+
+  footer #instagram:active {
+    background-image: url("../images/shared/logo_instagram_active.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+  }
+
+  footer #email {
+    background-image: url("../images/shared/logo_email_100.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+  }
+
+  footer #email:hover {
+    background-image: url("../images/shared/logo_email_hover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+  }
+
+  footer #email:active {
+    background-image: url("../images/shared/logo_email_active.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
   }
   /* BUTTONS */
 
@@ -274,7 +396,7 @@
   .a-gallery {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     width: auto;
     justify-content: center;
     padding: 2%;
@@ -323,8 +445,8 @@
   } */
 
   .rp-images {
-    width: 100%;
-    height: 700px;
+    width: 65%;
+    height: 600px;
     object-fit: contain;
     align-self: center;
     border: solid;
@@ -340,8 +462,8 @@
   }
 
   .ba-images {
-    width: 100%;
-    height: 800px;
+    width: 65%;
+    height: 600px;
     object-fit: contain;
     align-self: center;
     border: solid;
@@ -357,8 +479,8 @@
   }
 
   .ss-images {
-    width: 100%;
-    height: 800px;
+    width: 65%;
+    height: 600px;
     object-fit: contain;
     align-self: center;
     border: solid;
@@ -386,7 +508,10 @@
     flex-direction: row;
     flex-wrap: nowrap;
     align-self: center;
-    width: 40%;
+    align-items: center;
+    width: 20%;
+    height: auto;
+    justify-content: space-between;
   }
 
   .image-selectors a {
@@ -394,14 +519,14 @@
     margin-left: 5%;
   }
 
-  .rp-previous,
+  /* .rp-previous,
   .rp-next {
     width: 100px;
     height: 100px;
     cursor: pointer;
     border-radius: 50%;
     background-color: blue;
-  }
+  } */
 
   .as-rp-thumbnail {
     margin: 1%;
@@ -418,7 +543,29 @@
     cursor: pointer;
     width: 200px;
     height: 128px;
+    object-fit: contain;
     background-image: url("../images/gallery/prev.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2%;
+  }
+  .previous:hover {
+    cursor: pointer;
+    width: 200px;
+    height: 128px;
+    object-fit: contain;
+    background-image: url("../images/gallery/prev_hover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2%;
+  }
+
+  .previous:active {
+    cursor: pointer;
+    width: 200px;
+    height: 128px;
+    object-fit: contain;
+    background-image: url("../images/gallery/prev_active.jpg");
     background-position: center;
     background-repeat: no-repeat;
     margin: 2%;
@@ -429,6 +576,26 @@
     width: 200px;
     height: 128px;
     background-image: url("../images/gallery/next.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2%;
+  }
+
+  .next:hover {
+    cursor: pointer;
+    width: 200px;
+    height: 128px;
+    background-image: url("../images/gallery/next_hover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2%;
+  }
+
+  .next:active {
+    cursor: pointer;
+    width: 200px;
+    height: 128px;
+    background-image: url("../images/gallery/next_active.jpg");
     background-position: center;
     background-repeat: no-repeat;
     margin: 2%;
