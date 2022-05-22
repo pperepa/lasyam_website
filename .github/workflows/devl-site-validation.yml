@@ -1,0 +1,19 @@
+name: devl-build-checks
+on: 
+  push: 
+    branches:
+      - development
+jobs:
+  checkout_github_repository:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout-main-branch
+        uses: actions/checkout@v3
+        with:
+          ref: development
+
+      # - name: ssh-key-init
+      # - uses: webfactory/ssh-agent@v0.5.4
+      #   with:
+      #     ssh-private-key: ${{secrets.SSH_PRIVATE_KEY}}
+      #     ref: 'main'

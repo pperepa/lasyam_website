@@ -1,4 +1,4 @@
-name: deploy-site
+name: deploy-site-prod
 on: 
   push: 
     branches:
@@ -8,9 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout-main-branch
-        uses: actions/checokut@v3
+        uses: actions/checkout@v3
         with:
-          ref: 'main'
+          ref: main
 
       # - name: ssh-key-init
       # - uses: webfactory/ssh-agent@v0.5.4
