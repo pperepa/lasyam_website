@@ -1,6 +1,6 @@
 # Pipeline Build Statuses
 
-# Sandbox Pipeline Checks
+## Sandbox Pipeline Checks
 
 [![deploy-site-prod](https://github.com/pperepa/lasyam_website/actions/workflows/deploy-site-prod.yml/badge.svg?branch=sandbox)](https://github.com/pperepa/lasyam_website/actions/workflows/deploy-site-prod.yml)
 
