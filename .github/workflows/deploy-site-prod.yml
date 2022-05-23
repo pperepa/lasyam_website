@@ -5,7 +5,7 @@ on:
       - main
 jobs:
   build:
-    name: checkout
+    name: Checkout main branch
     runs-on: ubuntu-latest
     steps:
       - name: Checkout main branch of lasyam_website repository
@@ -20,7 +20,7 @@ jobs:
       uses: appleboy/ssh-action@master
       with: 
         host: ${{ secrets.SSH_HOST }}
-        key: ${{ secret.SSH_KEY }}
+        key: ${{ secrets.SSH_KEY }}
         username: ${{ secrets.SSH_USERNAME }}
         script: |
                 cd ~/public_html/

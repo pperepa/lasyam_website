@@ -1,7 +1,6 @@
 */scratch/*
 */.vscode/*
-*.*
-*.*/*
 .htaccess
-.htaccess*
+.htaccess.no_htaccess.phpupgrader
 .well-known/*
+cgi-bin/*
