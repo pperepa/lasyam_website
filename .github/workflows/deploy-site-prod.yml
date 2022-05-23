@@ -4,22 +4,25 @@ on:
     branches:
       - main
 jobs:
-  checkout_github_repository:
+  build:
+    name: checkout
     runs-on: ubuntu-latest
     steps:
-      - name: checkout-main-branch
+      - name: Checkout main branch of lasyam_website repository
         uses: actions/checkout@v3
         with:
           ref: main
-
-      - name: Deploy site to web server
-        uses: appleboy/ssh-action@master
-        with: 
-          host: ${{secrets.SSH_HOST}}
-          key: ${{secret.SSH_KEY}}
-          username: ${{secrets.SSH_USERNAME}}
-
-          script: |
-          cd ~/public_html/
-          git pull origin main
-          echo 'Deployment successful to web server.'
+  deploy:
+    name: Deploy lasyam_website contents to remote web server
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy site to web server
+      uses: appleboy/ssh-action@master
+      with: 
+        host: ${{ secrets.SSH_HOST }}
+        key: ${{ secret.SSH_KEY }}
+        username: ${{ secrets.SSH_USERNAME }}
+        script: |
+                cd ~/public_html/
+                git pull origin main
+                echo 'Deployment successful to web server.'
