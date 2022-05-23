@@ -1,2 +1,7 @@
 */scratch/*
 */.vscode/*
+*.*
+*.*/*
+.htaccess
+.htaccess*
+.well-known/*
