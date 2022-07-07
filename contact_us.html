@@ -53,8 +53,15 @@
                 <label for="email" class="contact_labels">Email Address: </label><br>
                 <input type="email" class="contact_inputs" name="email" id="input_email"><br><br>
                 <label for="message" class="contact_labels">Message: </label><br>
-                <textarea id="contact_textarea" name="contact_message"></textarea><br><br>
-                <button type="submit" id="send_button" type="button">Send</button>
+                <textarea id="contact_textarea" name="contact_message"></textarea><br>
+                <div id="captcha">
+                    <div class="g-recaptcha brochure__form__captcha"
+                        data-sitekey="6Ld1QNEgAAAAAJ0V2JYEaAFDenUK-cuxDB1RHAi_">
+                    </div>
+                </div>
+                <div id="submit_form">
+                    <button type="submit" id="send_button" type="button">Send</button>
+                </div>
             </form>
             <figure>
                 <img src="./images/contact_us/contact_us-2.jpg" id="contact_us-right">
@@ -73,6 +80,7 @@
             <p>&copy; 2000-2022, Lasyam, Inc.</p>
         </footer>
         <script src="./js/scripts.js"></script>
+        <script src="https://www.google.com/recaptcha/api.js"></script>
         <!-- <script src="./js/css-borders.js"></script> -->
     </body>
 
