@@ -56,13 +56,19 @@
                 <textarea id="contact_textarea" name="contact_message"></textarea><br>
                 <div id="captcha">
                     <div class="g-recaptcha brochure__form__captcha"
-                        data-sitekey="6Ld1QNEgAAAAAJ0V2JYEaAFDenUK-cuxDB1RHAi_">
+                        data-sitekey="6Ld1QNEgAAAAAJ0V2JYEaAFDenUK-cuxDB1RHAi_" data-callback="callback">
                     </div>
                 </div>
                 <div id="submit_form">
-                    <button type="submit" id="send_button" type="button">Send</button>
+                    <button type="submit" id="send_button" type="submit" disabled>Send</button>
                 </div>
             </form>
+            <script type="text/javascript">
+                function callback() {
+                    const submitButton = document.getElementById("send_button");
+                    submitButton.removeAttribute("disabled");
+                }
+            </script>
             <figure>
                 <img src="./images/contact_us/contact_us-2.jpg" id="contact_us-right">
             </figure>
@@ -80,7 +86,7 @@
             <p>&copy; 2000-2022, Lasyam, Inc.</p>
         </footer>
         <script src="./js/scripts.js"></script>
-        <script src="https://www.google.com/recaptcha/api.js"></script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
         <!-- <script src="./js/css-borders.js"></script> -->
     </body>
 
