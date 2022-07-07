@@ -385,8 +385,19 @@
     flex-wrap: nowrap;
   }
 
+  #captcha {
+    text-align: center;
+  }
+
+  .g-recaptcha {
+    display: inline-block;
+  }
+
+  #submit_form {
+    text-align: left;
+  }
+
   #send_button {
-    margin-left: 40px;
     margin-bottom: 20px;
     cursor: pointer;
     width: 100px;
