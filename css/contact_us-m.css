@@ -348,8 +348,19 @@
     flex-wrap: nowrap;
   }
 
+  #captcha {
+    text-align: center;
+  }
+
+  .g-recaptcha {
+    display: inline-block;
+  }
+
+  #submit_form {
+    text-align: center;
+  }
+
   #send_button {
-    margin-left: 80px;
     margin-bottom: 20px;
     cursor: pointer;
     width: 100px;
